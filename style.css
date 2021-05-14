@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+} /*so that the web-page does not default to the old method of box-sizing: content-box*/
+
+header {
+  background-color: beige;
+  margin: 8px;
+  padding: 8px;
+} /*My mentor suggested I begin with lighter-colored backgrounds, and darker text. I'm hoping this makes the webpage more accesible to a variety of users*/
+
+main {
+  background-color: beige;
+  margin: 8px;
+  padding: 8px;
+}
+
+footer {
+  background-color: beige;
+  margin: 8px;
+  padding: 8px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: darkblue;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: darkblue;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+
+img {
+  width: 25%;
+  height: 25%
+} /*image scaled-down to 25% of its original height and width*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} /*centers the image within its container*/
+
+ol, ul {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+} /*styling for both the unordered and ordered lists*/
+
+.list-inside li {
+  list-style-position: inside;
+} /*moves bullets/numbers of list-items to inside of the list-item container*/
+
+a:link { color: indigo }
+a:hover { color: darkblue}
+a:active { color: darkblue}
+a:visited { color: darkblue}
+/*link styling*/
